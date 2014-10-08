@@ -1,0 +1,275 @@
+/* Reset {{{
+***********************************************************
+* reset.css from Eric Meyer
+* http://ericmeyerweb.com/
+***********************************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/***********************************************************/
+/* END Eric Meyer reset.css }}} */
+/* Body {{{ */
+body {
+    font-family:
+    "Arial",
+    "Helvetica",
+    "Verdana",
+    "Geneva",
+    sans-serif;
+    font-size: 12pt;
+    margin: auto;
+}
+#container{
+    width: 1280px;
+    margin: auto;
+    border: solid 1px black;
+}
+/* }}} */
+/* Header {{{ */
+#presentation{
+    font-size: 40px;
+    margin-left: 350px;
+}
+.presentation_text{
+    margin-top: 40px;
+}
+#portfolio{
+    font-size: 70px;
+    margin-left: 200px;
+}
+#gray{
+    float: right;
+}
+/* }}} */
+/* Main {{{ */
+#main img {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#main{
+    color: #2e2929;
+}
+#main li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    margin-left: 5px;
+}
+.to_top{
+    text-decoration: none;
+    color: #2e2929;
+    font-size: 16pt;
+    margin-left: 1150px;
+}
+#menu{
+    width: 1167px;
+    height: 274px;
+    background-image: url('../images/circles.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-top: 150px;
+}
+.menu_text{
+    display: inline-block;
+    font-size: 30pt;
+    margin-top: 105px;
+    margin-right: 100px;
+}
+.menu_text a {
+    text-decoration: none;
+    color: #000;
+}
+#cv{
+   margin-left: 280px;
+}
+#web{
+    margin-left: 30px;
+}
+#android{
+    margin-left: -18px;
+}
+#games{
+    margin-left: -40px;
+}
+.boxes{
+    margin-bottom: 20px;
+}
+#purple{
+    padding-top: 10px;
+    background-color: #bf68d5;
+    background-image: url("../images/purple_band.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.purple_title{
+    /*background-image: url("../images/purple_title.png");*/
+    margin-top: 20px;
+}
+.green_title{
+    background-image: url("../images/green_title.png");
+}
+.orange_title{
+    background-image: url("../images/orange_title.png");
+}
+.blue_title{
+    background-image: url("../images/blue_title.png");
+}
+.cv_title{
+    background-repeat: no-repeat;
+    font-size: 15pt;
+}
+.bold_text{
+    font-weight: bold;
+}
+.italic_text{
+    font-style: italic;
+}
+.year{
+}
+.cv_boxes{
+    width: 520px;
+    margin-left: 17px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: #bf68d5;
+}
+.left{
+    width: 700px;
+    margin-top: 20px;
+}
+.right{
+    margin-left: 740px;
+    margin-top: -100px;
+}
+.app_text{
+    width: 500px;
+    margin-top: -220px;
+    margin-left: 550px;
+    margin-bottom: 60px;
+}
+.space_top{
+    padding-top: 100px;
+}
+#knowlegde{
+    margin-top: -15px;
+}
+#academics{
+    margin-top: 100px;
+}
+#photo{
+    margin-left: 1071px;
+    margin-top: -380px;
+    margin-bottom: 140px;
+}
+#work_exp{
+    margin-top: 20px;
+}
+#other_data{
+    margin-top: -473px;
+    margin-bottom: 20px;
+}
+#mantra{
+    margin-bottom: 110px;
+}
+#green{
+    background-color: #bfec21;
+    background-image: url("../images/green_band.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    /*background-image: url("../images/blue_deco.png");
+    background-repeat: no-repeat;
+    background-position: top right;*/
+}
+#green_to_top{
+    padding-bottom: 15px;
+}
+#visit_lluvia{
+    margin-left: 700px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+#visit_lluvia a {
+    text-decoration: none;
+    color: #504f4f;
+    font-size: 16pt;
+}
+.app_text_orange{
+    margin-bottom: 160px;
+}
+#orange{
+    background-color: #f4a30b;
+    background-image: url("../images/orange_band.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    /*background-image: url("../images/green_deco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1300px 850px;*/
+
+}
+#blue{
+    background-color: #6fb8c1;
+    background-image: url("../images/blue_band.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    /*background-image: url("../images/orange_deco.png");
+    background-size: 635px 130px;
+    background-repeat: no-repeat;
+    background-position: right;*/
+}
+#blue img {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#cards{
+    margin-top: -400px;
+    margin-bottom: 280px;
+}
+/* }}} */
+/* Footer {{{ */
+#footer{
+    height: 100px;
+    background-color: #000;
+}
+/* }}} */
+
