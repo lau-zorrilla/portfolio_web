@@ -81,12 +81,13 @@ body {
 }
 /* }}} */
 /* Main {{{ */
+#main{
+    color: #2e2929;
+}
 #main img {
     margin-top: 30px;
     margin-left: 20px;
-}
-#main{
-    color: #2e2929;
+    /*box-shadow: 10px 10px 5px #888888;*/
 }
 #main li {
     margin-bottom: 10px;
@@ -129,9 +130,6 @@ body {
 }
 #games{
     margin-left: -40px;
-}
-.boxes{
-    margin-bottom: 20px;
 }
 #purple{
     padding-top: 10px;
@@ -189,6 +187,10 @@ body {
 }
 .space_top{
     padding-top: 100px;
+}
+.white{
+    margin-left: -20px;
+    margin-bottom: -24px;
 }
 #knowlegde{
     margin-top: -15px;
@@ -259,17 +261,22 @@ body {
 }
 #blue img {
     margin-top: 30px;
-    margin-bottom: 60px;
 }
 #cards{
-    margin-top: -400px;
-    margin-bottom: 280px;
+    margin-top: -330px;
+    margin-bottom: 180px;
 }
 /* }}} */
 /* Footer {{{ */
 #footer{
     height: 100px;
     background-color: #000;
+    background-image: url("../images/white_band.png");
+    /*background-image: url("../images/footerBand.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 1280px 114px;*/
+    margin-bottom: 3px;
 }
 /* }}} */
 
