@@ -125,6 +125,10 @@ body {
     margin-bottom: 10px;
     line-height: 1.5;
     margin-left: 5px;
+    margin-right: 5px;
+}
+#main p{
+    text-align: justify;
 }
 .to_top{
     text-decoration: none;
@@ -191,7 +195,7 @@ body {
     margin-top: -100px;
 }
 .app_text{
-    width: 500px;
+    width: 400px;
     margin-top: -220px;
     margin-left: 650px;
     margin-bottom: 60px;
@@ -214,8 +218,8 @@ body {
     margin-top: 20px;
 }
 #other_data{
-    margin-top: -498px;
-    margin-bottom: 20px;
+    margin-top: -502px;
+    margin-bottom: 35px;
 }
 #mantra{
     margin-bottom: 110px;
