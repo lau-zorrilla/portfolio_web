@@ -81,25 +81,6 @@ body {
 }
 /* }}} */
 /* Main {{{ */
-#main{
-    color: #2e2929;
-}
-#main img {
-    margin-top: 30px;
-    margin-left: 20px;
-    /*box-shadow: 10px 10px 5px #888888;*/
-}
-#main li {
-    margin-bottom: 10px;
-    line-height: 1.5;
-    margin-left: 5px;
-}
-.to_top{
-    text-decoration: none;
-    color: #2e2929;
-    font-size: 16pt;
-    margin-left: 1150px;
-}
 #menu{
     width: 1167px;
     height: 274px;
@@ -131,12 +112,34 @@ body {
 #games{
     margin-left: -40px;
 }
-#purple{
-    padding-top: 10px;
-    background-color: #bf68d5;
-    background-image: url("../images/purple_band.png");
+/**************************/
+#main{
+    color: #2e2929;
+}
+#main img {
+    margin-top: 30px;
+    margin-left: 20px;
+    /*box-shadow: 10px 10px 5px #888888;*/
+}
+#main li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    margin-left: 5px;
+}
+.to_top{
+    text-decoration: none;
+    color: #2e2929;
+    font-size: 16pt;
+    margin-left: 1150px;
+}
+.white{
+    margin-left: -20px;
+    margin-bottom: -24px;
+}
+.boxes{
     background-repeat: no-repeat;
     background-position: top left;
+    margin-top: 20px;
 }
 .purple_title{
     /*background-image: url("../images/purple_title.png");*/
@@ -150,6 +153,11 @@ body {
 }
 .blue_title{
     background-image: url("../images/blue_title.png");
+}
+#purple{
+    background-color: #fff;
+    background-image: url("../images/purple_band.png");
+    border: solid 4px #bf68d5;
 }
 .cv_title{
     background-repeat: no-repeat;
@@ -167,9 +175,9 @@ body {
     width: 520px;
     margin-left: 17px;
     margin-top: 20px;
-    border: 2px solid white;
-    border-radius: 25px;
-    background-color: #bf68d5;
+    border: 3px solid #bf68d5;
+    /*border-radius: 25px;*/
+    background-color: #e9bff3;
 }
 .left{
     width: 700px;
@@ -182,15 +190,11 @@ body {
 .app_text{
     width: 500px;
     margin-top: -220px;
-    margin-left: 550px;
+    margin-left: 650px;
     margin-bottom: 60px;
 }
 .space_top{
     padding-top: 100px;
-}
-.white{
-    margin-left: -20px;
-    margin-bottom: -24px;
 }
 #knowlegde{
     margin-top: -15px;
@@ -201,32 +205,27 @@ body {
 #photo{
     margin-left: 1071px;
     margin-top: -380px;
-    margin-bottom: 140px;
+    margin-bottom: 134px;
 }
 #work_exp{
     margin-top: 20px;
 }
 #other_data{
-    margin-top: -473px;
+    margin-top: -478px;
     margin-bottom: 20px;
 }
 #mantra{
     margin-bottom: 110px;
 }
 #green{
-    background-color: #bfec21;
     background-image: url("../images/green_band.png");
-    background-repeat: no-repeat;
-    background-position: top left;
-    /*background-image: url("../images/blue_deco.png");
-    background-repeat: no-repeat;
-    background-position: top right;*/
+    border: solid 4px #bfec21;
 }
 #green_to_top{
     padding-bottom: 15px;
 }
 #visit_lluvia{
-    margin-left: 700px;
+    margin-left: 780px;
     margin-top: -40px;
     margin-bottom: 20px;
 }
@@ -239,44 +238,38 @@ body {
     margin-bottom: 160px;
 }
 #orange{
-    background-color: #f4a30b;
     background-image: url("../images/orange_band.png");
-    background-repeat: no-repeat;
-    background-position: top left;
-    /*background-image: url("../images/green_deco.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1300px 850px;*/
-
+    border: solid 4px #f4a30b;
 }
 #blue{
-    background-color: #6fb8c1;
     background-image: url("../images/blue_band.png");
-    background-repeat: no-repeat;
-    background-position: top left;
-    /*background-image: url("../images/orange_deco.png");
-    background-size: 635px 130px;
-    background-repeat: no-repeat;
-    background-position: right;*/
+    border: solid 4px #6fb8c1;
 }
 #blue img {
     margin-top: 30px;
 }
 #cards{
     margin-top: -330px;
-    margin-bottom: 180px;
+    margin-bottom: 200px;
 }
 /* }}} */
 /* Footer {{{ */
 #footer{
-    height: 100px;
-    background-color: #000;
-    background-image: url("../images/white_band.png");
-    /*background-image: url("../images/footerBand.png");
+    height: 120px;
+    /*background-color: #000;*/
+    background-image: url("../images/footerBg.png");
     background-repeat: no-repeat;
-    background-position: top left;
-    background-size: 1280px 114px;*/
-    margin-bottom: 3px;
+    background-position: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 14pt;
+}
+#footer_container{
+    padding-top: 25px;
+}
+#footer p{
+    margin-left: 90px;
 }
 /* }}} */
 
