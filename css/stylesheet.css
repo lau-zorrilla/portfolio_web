@@ -57,6 +57,7 @@ body {
     sans-serif;
     font-size: 12pt;
     margin: auto;
+    /*background-color: #8d8b8b;*/
 }
 #container{
     width: 1280px;
@@ -218,7 +219,7 @@ body {
     margin-top: 20px;
 }
 #other_data{
-    margin-top: -502px;
+    margin-top: -524px;
     margin-bottom: 35px;
 }
 #mantra{
@@ -253,11 +254,11 @@ body {
     border: solid 4px #6fb8c1;
 }
 #blue img {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 #cards{
-    margin-top: -300px;
-    margin-bottom: 230px;
+    margin-top: -360px;
+    margin-bottom: 250px;
 }
 /* }}} */
 /* Footer {{{ */
