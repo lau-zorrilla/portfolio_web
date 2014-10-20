@@ -62,7 +62,6 @@ body {
 #container{
     width: 1280px;
     margin: auto;
-    border: solid 1px black;
 }
 /* }}} */
 /* Header {{{ */
@@ -198,22 +197,28 @@ body {
     margin-top: -60px;
     margin-bottom: 20px;
 }
-#academics{
+#academics_en{
 }
 #knowlegde{
 }
 #photo{
     margin-left: 991px;
 }
-#languages{
+#languages_en{
+    margin-top: -170px;
+    margin-bottom: 20px;
 }
-#work_exp{
+#work_exp_en{
 }
 .year{
     margin-right: 30px;
 }
 #other_data{
     margin-top: -520px;
+    margin-bottom: 20px;
+}
+#other_data_en{
+    margin-top: -500px;
     margin-bottom: 20px;
 }
 .app_text{
